@@ -20,3 +20,6 @@ else
   echo "The function '$SPIN_ACTION' does not exist."
   exit 1
 fi
+
+SPIN_PROJECT_DIRECTORY="$(pwd)"
+export SPIN_PROJECT_DIRECTORY
