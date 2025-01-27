@@ -1,0 +1,8 @@
+---
+title: Spin Skeleton Template
+authors:
+  - Jay Rogers (@jaydrogers)
+  - Dan Pastori (@danpastori)
+description: The official Spin Skeleton template when you run `spin new skeleton` from CLI.
+repository: https://github.com/serversideup/spin-template-skeleton
+issues: https://github.com/serversideup/spin-template-skeleton/issues
