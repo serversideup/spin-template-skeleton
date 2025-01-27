@@ -2,11 +2,13 @@
 SPIN_PROJECT_DIRECTORY="${1:-$(pwd)}"
 
 new() {
-  true
+  init
 }
 
 init() {
-  true
+  if [ ! -d "$SPIN_PROJECT_DIRECTORY" ]; then
+    mkdir -p "$SPIN_PROJECT_DIRECTORY"
+  fi
 }
 
 # When spin calls this script, it already sets a variable

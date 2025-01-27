@@ -1,0 +1,4 @@
+services:
+  whoami:
+    environment:
+      WHOAMI_NAME: "production"
