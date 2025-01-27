@@ -1,4 +1,5 @@
 #!/bin/bash
+SPIN_PROJECT_DIRECTORY="${1:-$(pwd)}"
 
 new() {
   true
@@ -21,5 +22,4 @@ else
   exit 1
 fi
 
-SPIN_PROJECT_DIRECTORY="$(pwd)"
 export SPIN_PROJECT_DIRECTORY
